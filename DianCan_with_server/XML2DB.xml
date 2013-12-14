@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tables>
+<table name="菜单">
+	<food _id="1" food_kind_no="1" food_kind="面食" food_cost="8">炒面</food>
+	<food _id="2" food_kind_no="1" food_kind="饺子" food_cost="12">炸酱面</food>
+	<food _id="3" food_kind_no="2" food_kind="饺子" food_cost="12">水饺</food>
+	<food _id="4" food_kind_no="3" food_kind="冷菜" food_cost="8">黄瓜</food>
+	<food _id="5" food_kind_no="4" food_kind="热菜" food_cost="8">豆角炒茄子</food>
+	<food _id="6" food_kind_no="5" food_kind="主食" food_cost="2">米饭</food>
+	<food _id="7" food_kind_no="6" food_kind="酒水" food_cost="8">啤酒</food>
+</table>
+<table name="已点">
+	<food _id="1" food_cost="8" food_count="1">炒面</food>
+</table>
+<table name="推荐">
+	<food _id="1" food_kind_no="1" food_cost="8">炒面</food>
+</table>
+</tables>

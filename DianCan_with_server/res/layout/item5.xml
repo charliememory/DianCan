@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/item1_top_bg" >
+
+        <TextView
+            android:id="@+id/item5_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/grid_item_text5"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/item5_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignBaseline="@+id/item5_textView"
+            android:padding="7dp"
+            android:background="@drawable/back_selector"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+    <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:layout_margin="5dp">
+        <TableRow 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView 
+			    android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:textColor="@color/black"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:layout_margin="10dp"
+				android:text="@string/kind1"/>
+            <EditText 
+				android:id="@+id/item5_edit1"  
+				android:layout_width="fill_parent"  
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp" />  
+        </TableRow>
+        <TableRow 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView 
+			    android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:textColor="@color/black"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:layout_margin="10dp"
+				android:text="@string/kind2"/>
+            <EditText 
+				android:id="@+id/item5_edit2"  
+				android:layout_width="fill_parent"  
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp" />  
+        </TableRow>
+        <TableRow 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView 
+			    android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:textColor="@color/black"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:layout_margin="10dp"
+				android:text="@string/kind3"/>
+            <EditText 
+				android:id="@+id/item5_edit3"  
+				android:layout_width="fill_parent"  
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp" />  
+        </TableRow>
+        <TableRow 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView 
+			    android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:textColor="@color/black"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:layout_margin="10dp"
+				android:text="@string/kind4"/>
+            <EditText 
+				android:id="@+id/item5_edit4"  
+				android:layout_width="fill_parent"  
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp" />  
+        </TableRow>
+        <TableRow 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView 
+			    android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:textColor="@color/black"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:layout_margin="10dp"
+				android:text="@string/kind5"/>
+            <EditText 
+				android:id="@+id/item5_edit5"  
+				android:layout_width="fill_parent"  
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp" />  
+        </TableRow>
+        <TableRow 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView 
+			    android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:textColor="@color/black"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:layout_margin="10dp"
+				android:text="@string/kind6"/>
+            <EditText 
+				android:id="@+id/item5_edit6"  
+				android:layout_width="fill_parent"  
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp" />  
+        </TableRow>
+    </TableLayout>
+    </ScrollView>
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:layout_weight="0" >
+
+		<Button
+		    android:id="@+id/item5_ok_btn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_margin="20dp"
+		    android:text="@string/ok"
+		    android:textSize="17sp" />
+
+	</LinearLayout>
+</LinearLayout>

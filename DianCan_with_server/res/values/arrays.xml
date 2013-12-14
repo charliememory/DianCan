@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="food_kind_array">  
+		<item>面食</item>  
+		<item>饺子</item>  
+		<item>酒水</item>  
+		<item>饮料</item>  
+		<item>自定义</item>  
+	</string-array> 
+</resources>

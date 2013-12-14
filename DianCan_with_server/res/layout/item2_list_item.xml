@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 在< RelativeLayout>中
+	android:descendantFocusability= "blocksDescendants"和< ImageButton>中
+	android:focusable = "false"这两项的设置很关键，如果不设置，将导致ListView的ItemClick事件将无法触发，
+	该事件被ImageButton的click事件屏蔽了。 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding= "5dip" 
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/food_num2"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textColor="@color/translucence_darkbrown"
+		android:textSize="20sp"
+		android:layout_marginLeft="10dp"
+		android:text="a" />
+    
+    <TextView 
+        android:id="@+id/food_name2"
+		android:layout_width="100dp" 
+		android:layout_height="wrap_content"
+		android:textColor="@color/translucence_darkorange"
+		android:textSize="20sp"
+		android:layout_marginLeft="10dp"
+		android:layout_toRightOf="@id/food_num2"
+		android:text="ab" />
+    
+    <TextView 
+        android:id="@+id/food_cost2"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textColor="@color/translucence_milkblue"
+		android:textSize="20sp"
+		android:layout_marginLeft="20dp"
+		android:layout_toRightOf="@id/food_name2"
+		android:text="a" />
+    
+    <TextView 
+        android:id="@+id/food_count2"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textColor="@color/translucence_orange1"
+		android:textSize="20sp"
+		android:layout_marginRight="20dp"
+		android:layout_alignParentRight="true"
+		android:text="a" />
+
+    
+
+</RelativeLayout>

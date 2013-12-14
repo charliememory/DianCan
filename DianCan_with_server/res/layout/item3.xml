@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/item_bg" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/item1_top_bg" >
+
+        <TextView
+            android:id="@+id/item3_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/grid_item_text2"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/item3_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignBaseline="@+id/item3_textView"
+            android:padding="7dp"
+            android:background="@drawable/back_selector"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <LinearLayout 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:layout_marginTop="30dp" >
+        <TextView android:id="@+id/item3_text1"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:textColor="@color/black"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:layout_marginBottom="15dp"
+			android:text="@string/restaurant_name"/>
+		<EditText android:id="@+id/item3_edit1"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="40dp"
+			android:layout_marginRight="40dp"
+			android:layout_marginBottom="40dp"
+			android:gravity="center"/>
+		<TextView android:id="@+id/item3_text2"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:textColor="@color/black"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:layout_marginBottom="15dp"
+			android:text="@string/waiter_num"/>
+		<EditText android:id="@+id/item3_edit2"
+		    android:inputType="number"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="80dp"
+			android:layout_marginRight="80dp"
+			android:layout_marginBottom="40dp"
+			android:gravity="center"/>
+		<Button android:id="@+id/item3_ok_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/ok"
+			android:textSize="17sp"/>
+    </LinearLayout>
+ 
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+<table name="菜单">
+	<food_kind name="特价">
+		<food food_cost="6" food_name="肉丝酸菜粉"></food>
+		<food food_cost="5" food_name="辣炒豆嘴"></food>
+		<food food_cost="4" food_name="小葱拌豆腐"></food>
+		<food food_cost="5" food_name="老醋花生米"></food>
+		<food food_cost="5" food_name="酸辣土豆丝"></food>
+		<food food_cost="6" food_name="熘片粉"></food>
+	</food_kind>
+	
+	<food_kind name="凉菜">
+		<food food_cost="15" food_name="姜汁松花蛋"></food>
+		<food food_cost="12" food_name="五香豆腐丝"></food>
+		<food food_cost="12" food_name="麻酱油麦菜"></food>
+		<food food_cost="12" food_name="热带杂果"></food>
+		<food food_cost="20" food_name="红油肚丝"></food>
+		<food food_cost="12" food_name="芹菜花生米"></food>
+		<food food_cost="15" food_name="皮蛋豆腐"></food>
+		<food food_cost="15" food_name="老醋木耳"></food>
+		<food food_cost="12" food_name="黄瓜拉皮"></food>
+		<food food_cost="15" food_name="芥末木耳"></food>
+		<food food_cost="15" food_name="凉拌金针菇"></food>
+		<food food_cost="15" food_name="老虎菜"></food>
+		<food food_cost="20" food_name="肉丝拉皮"></food>
+	</food_kind>
+	
+	<food_kind name="热菜">
+		<food food_cost="20" food_name="家常豆腐"></food>
+		<food food_cost="15" food_name="尖椒干豆腐"></food>
+		<food food_cost="15" food_name="麻辣豆腐"></food>
+		<food food_cost="18" food_name="千叶豆腐炒木耳"></food>
+		<food food_cost="18" food_name="葱香木耳"></food>
+		<food food_cost="18" food_name="东北酱焖茄子"></food>
+		<food food_cost="25" food_name="葱包肉"></food>
+		<food food_cost="18" food_name="炸茄盒"></food>
+		<food food_cost="18" food_name="烧茄子"></food>
+		<food food_cost="20" food_name="豆豉鲮鱼油麦菜"></food>
+		<food food_cost="25" food_name="干炸小花鱼"></food>
+		<food food_cost="25" food_name="鱼香肉丝"></food>
+		<food food_cost="20" food_name="香菇肉片"></food>
+		<food food_cost="15" food_name="肉末豆嘴"></food>
+		<food food_cost="20" food_name="水煮肉片"></food>
+		<food food_cost="12" food_name="蒜蓉油麦菜"></food>
+		<food food_cost="30" food_name="香辣酥肉丝"></food>
+		<food food_cost="18" food_name="丝瓜烧面筋"></food>
+		<food food_cost="25" food_name="京酱肉丝"></food>
+		<food food_cost="15" food_name="地三鲜"></food>
+		<food food_cost="30" food_name="孜然羊肉"></food>
+		<food food_cost="25" food_name="宫保鸡丁"></food>
+		<food food_cost="18" food_name="烧全菌"></food>
+		<food food_cost="30" food_name="红烧带鱼"></food>
+		<food food_cost="30" food_name="糖醋带鱼"></food>
+		<food food_cost="35" food_name="香辣虾"></food>
+		<food food_cost="30" food_name="白灼虾"></food>
+		<food food_cost="40" food_name="竹篓开背虾"></food>
+		<food food_cost="35" food_name="香酥鲜鱿爪"></food>
+		<food food_cost="25" food_name="铁板豉椒肉片"></food>
+		<food food_cost="35" food_name="铁板鱿鱼"></food>
+		<food food_cost="30" food_name="铁板腰花"></food>
+		<food food_cost="20" food_name="铁板豆腐"></food>
+		<food food_cost="35" food_name="铁板牛肉"></food>
+	</food_kind>
+	
+	<food_kind name="炖菜">
+		<food food_cost="25" food_name="小炖肉"></food>
+		<food food_cost="30" food_name="水汆羊肉"></food>
+		<food food_cost="25" food_name="豆腐炖肥肠"></food>
+		<food food_cost="45" food_name="沸腾水煮鱼"></food>
+		<food food_cost="38" food_name="边锅羊杂"></food>
+		<food food_cost="28" food_name="边锅鸭血肥肠 "></food>
+		<food food_cost="25" food_name="边锅全菌"></food>
+		<food food_cost="38" food_name="边锅羊肉"></food>
+		<food food_cost="28" food_name="边锅酸菜川白肉"></food>
+		<food food_cost="38" food_name="炖牛杂"></food>
+		<food food_cost="18" food_name="砂锅豆腐"></food>
+		<food food_cost="20" food_name="冬瓜羊肉汤"></food>
+		<food food_cost="10" food_name="紫菜鸡蛋汤"></food>
+		<food food_cost="20" food_name="三鲜豆花羹"></food>
+		<food food_cost="10" food_name="酸辣汤"></food>
+	</food_kind>
+	
+	<food_kind name="主食">
+		<food food_cost="2" food_name="米饭"></food>
+		<food food_cost="4" food_name="焖饼"></food>
+		<food food_cost="4" food_name="烩饼"></food>
+		<food food_cost="6" food_name="蛋炒饭"></food>
+		<food food_cost="2" food_name="米饭"></food>
+		<food food_cost="2" food_name="米饭"></food>
+	</food_kind>
+	
+	<food_kind name="酒水">
+		<food food_cost="5" food_name="王老吉"></food>
+		<food food_cost="5" food_name="椰子汁"></food>
+		<food food_cost="8" food_name="青岛啤酒"></food>
+		<food food_cost="8" food_name="果粒橙"></food>
+		<food food_cost="8" food_name="可乐"></food>
+		<food food_cost="8" food_name="雪碧"></food>
+		<food food_cost="5" food_name="酸奶"></food>
+		<food food_cost="20" food_name="二锅头"></food>
+		<food food_cost="40" food_name="葡萄酒"></food>
+	</food_kind>
+</table>
+<table name="规则">
+	<rule order_set="1_2_3" recommand_set="4_5" conf="0.8"></rule>
+	<rule order_set="1_2" recommand_set="4_5" conf="0.6"></rule>
+	<rule order_set="1_3" recommand_set="4_5" conf="0.5"></rule>
+	<rule order_set="1" recommand_set="2_3" conf="0.8"></rule>
+	<rule order_set="2" recommand_set="3" conf="0.9"></rule>
+</table>
+</root>

@@ -1,0 +1,40 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg" >
+	<RelativeLayout
+	    android:id="@+id/layout1"
+		android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:gravity="center_horizontal">
+		<Button
+			android:id="@+id/order_btn"
+			android:layout_marginLeft="20dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginTop="100dp"
+			android:layout_alignParentLeft="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/order_selector" />
+		<Button
+			android:id="@+id/setting_btn"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="20dp"
+			android:layout_marginTop="100dp"
+			android:layout_alignParentRight="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/setting_selector" />	
+	</RelativeLayout>
+	<Button
+		android:id="@+id/update_btn"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="60dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/update_selector" />	
+
+</LinearLayout>

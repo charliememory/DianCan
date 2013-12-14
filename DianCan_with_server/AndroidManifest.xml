@@ -1,0 +1,75 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mlq.diancan"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- SD卡写授权 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" ><!-- 所有activity去掉title栏 -->
+        <activity
+            android:name="com.mlq.diancan.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+            <intent-filter> 
+                <action android:name="android.intent.action.MAIN" /> 
+                <category android:name="android.intent.category.LAUNCHER" /> 
+            </intent-filter> 
+        </activity>
+        <activity
+            android:name="com.mlq.diancan.Item1Activity"
+            android:label="@string/grid_item_text1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Item1_DeskNumActivity"
+            android:label="@string/desk_num"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Item1_CaiDanActivity"
+            android:label="@string/cai_dan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Item1_YiDianActivity"
+            android:label="@string/yi_dian"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Item1_TuiJianActivity"
+            android:label="@string/tui_jian"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mlq.diancan.Item3Activity"
+            android:label="@string/grid_item_text2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mlq.diancan.Item2Activity"
+            android:label="@string/grid_item_text3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mlq.diancan.Item3Activity"
+            android:label="@string/grid_item_text4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.mlq.diancan.Item5Activity"
+            android:label="@string/grid_item_text4"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

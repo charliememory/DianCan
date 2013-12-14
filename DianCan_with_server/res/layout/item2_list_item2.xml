@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 在< RelativeLayout>中
+	android:descendantFocusability= "blocksDescendants"和< ImageButton>中
+	android:focusable = "false"这两项的设置很关键，如果不设置，将导致ListView的ItemClick事件将无法触发，
+	该事件被ImageButton的click事件屏蔽了。 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/food_add"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:background="@drawable/add_selector" />
+
+</RelativeLayout>

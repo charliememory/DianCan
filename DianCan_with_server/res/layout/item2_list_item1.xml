@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 在< RelativeLayout>中
+	android:descendantFocusability= "blocksDescendants"和< ImageButton>中
+	android:focusable = "false"这两项的设置很关键，如果不设置，将导致ListView的ItemClick事件将无法触发，
+	该事件被ImageButton的click事件屏蔽了。 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding= "5dip" 
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/food_num"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textColor="@color/lightwhite"
+		android:textSize="20sp"
+		android:layout_marginLeft="10dp"
+		android:text="a" />
+    
+    <TextView 
+        android:id="@+id/food_name"
+		android:layout_width="100dp" 
+		android:layout_height="wrap_content"
+		android:textColor="@color/blueviolet"
+		android:textSize="20sp"
+		android:layout_marginLeft="10dp"
+		android:layout_toRightOf="@id/food_num"
+		android:text="a" />
+    
+    <Button 
+        android:id="@+id/food_delete"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textColor="@color/black"
+		android:textSize="15sp"
+		android:layout_marginRight="5dp"
+		android:layout_alignTop="@id/food_name"
+		android:layout_alignParentRight="true"
+		style="?android:attr/buttonStyleSmall"
+		android:text="@string/delete" />
+    
+    <Button 
+        android:id="@+id/food_edit"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textColor="@color/black"
+		android:textSize="15sp"
+		android:layout_marginRight="5dp"
+		android:layout_alignTop="@id/food_name"
+		android:layout_toLeftOf="@id/food_delete"
+		style="?android:attr/buttonStyleSmall"
+		android:text="@string/edit" />
+    
+    <TextView 
+        android:id="@+id/food_cost"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:textColor="@color/steelblue"
+		android:textSize="20sp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="20dp"
+		android:layout_alignBaseline="@id/food_name"
+		android:layout_toLeftOf="@id/food_edit"
+		android:text="a" />
+
+</RelativeLayout>

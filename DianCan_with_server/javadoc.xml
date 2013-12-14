@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="private" author="true" classpath="libs/android-support-v4.jar;D:\eclipse\android-sdk\tools\support\annotations.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" source="1.6" sourcefiles="src/com/mlq/diancan/MyDialog_MenuDelete.java,gen/com/mlq/diancan/R.java,src/com/mlq/diancan/Item1_FenChuActivity.java,src/com/mlq/diancan/MainActivity.java,src/com/mlq/diancan/MyDialog_Register.java,src/com/mlq/diancan/Item5Activity.java,src/com/mlq/diancan/Item2Activity.java,src/com/mlq/diancan/Item3Activity.java,src/com/mlq/diancan/MyDialog_DeskNum.java,gen/com/mlq/diancan/BuildConfig.java,src/com/mlq/diancan/MyDialog_MenuEdit.java,src/com/mlq/diancan/Model_Master.java,src/com/mlq/diancan/ListButtonAdapter.java,src/com/mlq/diancan/Item1_YiDianActivity.java,src/com/mlq/diancan/ListButtonAdapter2.java,src/com/mlq/diancan/MyDialog_MenuAdd.java,src/com/mlq/diancan/Item4Activity.java,src/com/mlq/diancan/Item1Activity.java,src/com/mlq/diancan/ListButtonAdapter3.java,src/com/mlq/diancan/Model_Slave.java,src/com/mlq/diancan/Item1_DeskNumActivity.java" sourcepath="gen;src" splitindex="true" use="true" version="true"/>
+    </target>
+</project>
